@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ tor html
    v2.0 | 20110126
    License: none (public domain)
    ========================================
@@ -60,7 +60,7 @@ table {
 /*====================================
 				GERAL
 ====================================*/
-html {
+html{
     font-size: calc(10px + 0.390625vw);
 }
 
@@ -101,9 +101,7 @@ header nav ul li.corworks a{
 
 main{
 	margin: 0 10vw 0 10vw;
-	
-	margin:0 6vw 0 6vw ;}
-
+}
 main.works h1{
 	font-size: 2.4rem;
 	margin: 6vw 0 3vw 0;
@@ -147,6 +145,7 @@ main.works section p.texto{
 	Conteudo home page
 ===========================
 */
+
 section.inicio{
 	display: flex;
 	padding:  10vw 0 5vw 0;
@@ -207,6 +206,7 @@ section.postsrecentes ul li p{
 	display: flex;
 	margin: 0 7vw 0 7vw;
 }
+
 section.ft-works h2{
 	font-size: 1.5rem;
 	margin: 3vw 7vw 3vw 7vw;
@@ -227,9 +227,16 @@ section.ft-works h2{
 }
 #container-ft-works p{
 	margin: 20px 0 0 0;
+
 }
 #container-ft-works p.conteudo-ft-works{
 	margin: 15px 0 0 0;
+	margin-right: 5vw;
+
+}
+#container-ft-works p.conteudo-ft-works-dois{
+	margin-right: 19vw;
+	margin-left: 0;
 }
 /*
 ========================================================================================================
